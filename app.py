@@ -3,6 +3,7 @@ import preprocessor,helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_page_config(page_title='Chat Lens')
 st.sidebar.title("Chat Lens")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
